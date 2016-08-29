@@ -15,18 +15,31 @@ namespace GroupOneSite.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Our Team";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact Information";
 
             return View();
         }
 
+        public IActionResult Partners()
+        {
+            ViewData["Message"] = "Our Partners";
+
+            return View();
+        }
+
+        public IActionResult Milestones()
+        {
+            ViewData["Message"] = "Current Milestones";
+
+            return View();
+        }
         public IActionResult Error()
         {
             return View();
